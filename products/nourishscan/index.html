@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NourishScan | Anisotropy Labs</title>
+    <meta
+      name="description"
+      content="NourishScan analyzes grocery receipt data to help people understand dietary patterns, trade-offs, and progress over time."
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="/">Anisotropy Labs</a>
+        <div class="nav-links">
+          <a href="/verticals/health-informatics/">Health Informatics</a>
+          <a href="/verticals/personalized-learning/">Personalized Learning</a>
+          <a href="/verticals/scientific-discovery-tools/">Scientific Discovery Tools</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <p class="eyebrow">Flagship product</p>
+        <h1>NourishScan</h1>
+        <p class="lead">
+          NourishScan is a consumer health informatics application that analyzes grocery receipt data to help people
+          understand food choices. It surfaces nutrition insights, trade-offs, and patterns over time, supporting gradual
+          improvement while respecting individual autonomy.
+        </p>
+
+        <div class="cta-row">
+          <a class="button primary" href="https://app.anisotropy.io/" target="_blank" rel="noopener">
+            Open NourishScan
+          </a>
+          <a class="button secondary" href="/verticals/health-informatics/">
+            Explore Health Informatics
+          </a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <h2>How it works</h2>
+          <ul>
+            <li>Scan or upload grocery receipts</li>
+            <li>AI extracts structured purchase signals</li>
+            <li>Insights explain nutrition and trade-offs</li>
+            <li>Track patterns and progress over time</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>What it optimizes for</h2>
+          <ul>
+            <li>Decision quality over rigid prescriptions</li>
+            <li>Gradual improvement, one change at a time</li>
+            <li>Interpretability and user control</li>
+            <li>Longitudinal insight, not one-off scoring</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Where it fits</h2>
+          <p>
+            NourishScan sits in our <strong>Health Informatics</strong> vertical. It is the central product we are
+            building around as we expand into personalized learning and scientific discovery tooling.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Anisotropy Labs, Inc.</p>
+        <div class="footer-links">
+          <a href="/ethics/">Ethics & Privacy</a>
+          <a href="https://app.anisotropy.io/" target="_blank" rel="noopener">NourishScan App</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
