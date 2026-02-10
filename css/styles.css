@@ -335,4 +335,20 @@ h1{
   border-radius: 14px;
   font-size: 14px;
 }
+/* Mobile header: keep it clean */
+@media (max-width: 760px){
+  .nav-center{ display: none; }        /* hides the link row if you use nav-center */
+  .nav-links{ display: none; }         /* hides old nav-links if still present */
+  .nav-right{ gap: 10px; }
+
+  .site-header .container{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .brandmark{
+    width: 36px;
+    height: 36px;
+  }
+}
 
