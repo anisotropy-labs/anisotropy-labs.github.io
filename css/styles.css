@@ -281,4 +281,32 @@ h1{
 .site-header{
   background: rgba(246,251,248,0.6);
 }
+.icon-tile{
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: var(--brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow-soft);
+}
+
+.lucide-icon{
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+}
+
+.text-link{
+  color: rgba(15,31,26,0.72);
+  font-weight: 800;
+  text-decoration: none;
+}
+.text-link:hover{
+  color: var(--ink);
+  text-decoration: underline;
+}
+
 

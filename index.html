@@ -5,44 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     name="description"
-    content="NourishScan is a consumer health informatics application that helps people understand dietary patterns, nutritional trade-offs, and progress over time through data-driven insights."
+    content="Anisotropy Labs builds data-driven systems for health informatics, personalized learning, and scientific discovery."
   />
   <title>Anisotropy Labs</title>
   <link rel="stylesheet" href="/css/styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
-<header class="site-header">
-  <div class="container">
-    <nav class="nav nav-minimal">
-      <a class="brand" href="/">
-        <span class="brandmark">A</span>
-        <span>Anisotropy Labs</span>
-      </a>
-    </nav>
-  </div>
-</header>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav nav-minimal">
+        <a class="brand" href="/">
+          <span class="brandmark">A</span>
+          <span>Anisotropy Labs</span>
+        </a>
+      </nav>
+    </div>
+  </header>
 
   <main class="container">
     <section class="hero">
-      <span class="pill">Flagship Product</span>
+      <span class="pill">Applied intelligence for real-world decisions</span>
 
-      <h1>NourishScan</h1>
+      <h1>Anisotropy Labs</h1>
 
       <p class="lead">
-        NourishScan is a consumer health informatics application that helps people understand dietary patterns,
-        nutritional trade-offs, and progress over time through data-driven insights.
+        We build data-driven systems that help people learn over time and make better decisions, while supporting scientific understanding.
       </p>
 
       <div class="cta-row">
-        <a class="button primary" href="https://app.anisotropy.io/" target="_blank" rel="noopener">Get Started</a>
-        <a class="button secondary" href="/products/nourishscan/">Learn More</a>
-      </div>
-
-      <div class="feature-row">
-        <div class="feature"><span class="feature-badge"></span><span>Privacy by design</span></div>
-        <div class="feature"><span class="feature-badge"></span><span>Interpretable insight</span></div>
-        <div class="feature"><span class="feature-badge"></span><span>Progress over time</span></div>
+        <a class="button primary" href="/products/nourishscan/">See NourishScan</a>
+        <a class="button secondary" href="/contact/">Contact</a>
       </div>
     </section>
 
@@ -51,21 +45,30 @@
 
       <div class="grid">
         <div class="card">
+          <div class="icon-tile" aria-hidden="true">
+            <i data-lucide="activity" class="lucide-icon"></i>
+          </div>
           <h3>Health Informatics</h3>
           <p>We build systems that turn real-world data into decision support and longitudinal health insight.</p>
-          <p><a href="/verticals/health-informatics/">Explore</a></p>
+          <p><a class="text-link" href="/products/nourishscan/">Explore</a></p>
         </div>
 
         <div class="card">
+          <div class="icon-tile" aria-hidden="true">
+            <i data-lucide="route" class="lucide-icon"></i>
+          </div>
           <h3>Personalized Learning</h3>
           <p>We design adaptive feedback systems that help people learn and improve through real decisions over time.</p>
-          <p><a href="/verticals/personalized-learning/">Explore</a></p>
+          <p><a class="text-link" href="/verticals/personalized-learning/">Explore</a></p>
         </div>
 
         <div class="card">
+          <div class="icon-tile" aria-hidden="true">
+            <i data-lucide="network" class="lucide-icon"></i>
+          </div>
           <h3>Scientific Discovery Tools</h3>
           <p>We build digital instruments that structure real-world data for analysis, aggregation, and discovery.</p>
-          <p><a href="/verticals/scientific-discovery-tools/">Explore</a></p>
+          <p><a class="text-link" href="/verticals/scientific-discovery-tools/">Explore</a></p>
         </div>
       </div>
     </section>
@@ -83,6 +86,7 @@
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
+    lucide.createIcons();
   </script>
 </body>
 </html>
