@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Anisotropy Labs</title>
+    <meta
+      name="description"
+      content="Anisotropy Labs is a technology company building data-driven and AI-enabled products for informed decision making and gradual, self-directed change."
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header (shared with main page) -->
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav nav-shared">
+          <a class="brand" href="/">
+            <img
+              src="/img/anisotropy-logo-header.svg"
+              alt="Anisotropy Labs"
+              class="brand-logo"
+            />
+          </a>
+
+          <div class="nav-links nav-links-shared">
+            <a href="/products/nourishscan/">NourishScan</a>
+            <a href="/verticals/health-informatics/">Health Informatics</a>
+            <a href="/verticals/personalized-learning/">Personalized Learning</a>
+            <a href="/verticals/scientific-discovery-tools/">Scientific Discovery Tools</a>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+          </div>
+
+          <a
+            class="button primary nav-cta"
+            href="https://app.anisotropy.io/"
+            target="_blank"
+            rel="noopener"
+          >
+            Get Started
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+      <section class="hero">
+        <h1>About</h1>
+
+        <p class="lead">
+          <strong>Anisotropy Labs, Inc.</strong> is a technology company that
+          develops data-driven and AI-enabled products addressing complex
+          societal challenges.
+        </p>
+
+        <p class="lead">
+          We build practical tools that support efficient and informed decision
+          making, improve transparency, and enhance awareness across everyday
+          contexts. Our work emphasizes respect for individual autonomy and
+          enables gradual, self-directed change over time, rather than
+          prescriptive or one-size-fits-all solutions.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer (shared with main page) -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Anisotropy Labs, Inc.</p>
+        <div class="footer-links">
+          <a href="/ethics/">Ethics & Privacy</a>
+          <a href="/products/nourishscan/">NourishScan</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
