@@ -68,12 +68,15 @@ a:hover{ opacity: 0.92; }
   font-weight: 800;
   letter-spacing: -0.02em;
 }
-
-/* Header logo */
-.brand-logo{
-  height: 32px;
-  width: auto;
-  display: block;
+.brandmark{
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  background: var(--brand);
+  display:grid;
+  place-items:center;
+  color: white;
+  font-weight: 900;
 }
 .nav-links{
   display:flex;
@@ -334,10 +337,6 @@ h1{
 }
 /* Mobile header: keep it clean */
 @media (max-width: 760px){
-  .brand-logo{
-    height: 26px;
-  }
-
   .nav-center{ display: none; }        /* hides the link row if you use nav-center */
   .nav-links{ display: none; }         /* hides old nav-links if still present */
   .nav-right{ gap: 10px; }
